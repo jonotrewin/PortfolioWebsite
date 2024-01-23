@@ -1,0 +1,481 @@
+
+:root{
+    --glasses-yellow: #FFD10F;
+    --darkgrey: rgb(42, 42, 42);
+    --lightgrey: rgb(124, 122, 119);
+    --cream: rgb(254, 255, 243);
+}
+
+
+body{
+   
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: #ffffff;
+    overflow-x: hidden;
+    background-image:  linear-gradient(135deg, var(--darkgrey) 25%, transparent 25%), linear-gradient(225deg, var(--glasses-yellow) 25%, transparent 25%), linear-gradient(45deg, #dd6666 25%, transparent 25%), linear-gradient(315deg, #dd66d5 25%, var(--cream) 25%);
+    background-position:  11px 0, 11px 0, 0 0, 0 0;
+    background-size: 66px 66px;
+    background-repeat: repeat;
+    
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1,h2, h3{
+    color: var(--darkgrey);
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light';
+ 
+}
+
+h1{
+    font-size:6vw;
+    
+    font-weight: 1000;
+
+
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 1000;
+    padding: 1rem;
+
+}
+h3{
+    font-size: 2rem;
+    font-weight: 1000;
+    padding: 1rem;
+    text-align: center;
+    padding: 2rem;
+    
+
+}
+
+
+p{
+    color: var(--darkgrey);
+    font-size: 1.3rem;
+    font-family:'Lato';
+}
+
+nav{
+    
+    background-color: rgb(42, 42, 42);
+    width: 100vw;
+   
+    
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    
+
+    
+}
+
+nav ul li {
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+   
+    
+}
+
+nav ul li h1:first-child{
+    font-family: 'Shadows Into Light';
+    font-size: 3rem;
+}
+
+nav ul ul {
+    display: flex;
+}
+nav ul ul li {
+    padding: 0rem;
+    margin: 0rem;
+    width: auto;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+nav *{
+    padding: 1rem;
+    color: var(--glasses-yellow);
+   
+}
+
+
+button{
+    padding: 1rem;
+    min-width: 200px;
+    min-height: 100px;
+    font-family: 'Shadows into light';
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    background-color: var(--glasses-yellow);
+    border: 0px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.29);
+    color: var(--darkgrey);
+}
+
+section{
+    text-align: center;
+
+    padding:2rem;
+    margin-bottom: 8rem; 
+
+   
+    
+
+}
+
+section h1{
+    color: var(--darkgrey);
+    text-align: left;
+    text-decoration: underline;
+    transform: rotate(-3deg);
+    
+    
+}
+.mainsection{
+    box-shadow: rgba(0, 0, 0, 0.162) 0.5rem 0.2rem 1rem 1rem; 
+    background-color: var(--cream);
+    
+
+}
+
+
+footer{
+    min-height: 20rem;
+background-color: var(--darkgrey);
+    margin-top: 10rem;
+    box-shadow:  2rem 2rem 2rem 2rem rgba(0, 0, 0, 0.326);
+ 
+  
+   
+  
+}
+footer section{
+    transform: skewY(-2deg) translateY(-15%);
+    box-shadow:  2rem 2rem 2rem 2rem rgba(0, 0, 0, 0.326);
+ 
+}
+
+
+#homepage-welcometext{
+    background-color: var(--cream);
+    max-width: 50%;
+    border-radius: 50px;
+    margin:2rem;
+   
+}
+
+#homepage-welcometext h1{
+    font-size:2em;
+    transform: rotate(-12deg);
+    width: 30px;
+    color: var(--darkgrey);
+    text-align: center;
+    text-decoration: none;
+   
+    
+    
+  
+}
+#picofme{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 800px;
+    transform: rotate(5deg);
+}
+
+#homepage-welcometext h2{
+    font-size:5rem;
+    font-family: 'shadows into light';
+    font-weight: 1000;
+    color: var(--glasses-yellow);
+    padding: -2rem 20rem 2rem 20rem;
+}
+
+#homepage-welcometext p{
+    
+    padding: 2rem 6rem 2rem 6rem;
+
+
+
+}
+
+.squigglytext{
+    text-shadow: 8px 0 var(--glasses-yellow), -3px 0 var(--glasses-yellow), 0px 3px var(--glasses-yellow), 0 -4px var(--glasses-yellow),
+    10px 10px var(--glasses-yellow), -8px -4px var(--glasses-yellow), 4px -4px var(--glasses-yellow), -4px 4px var(--glasses-yellow);
+    -webkit-text-stroke: 0.1px transparent;
+}
+#homepage-highlightedworkfull{
+   
+opacity: 1;
+background: repeating-linear-gradient( 45deg,var(--darkgrey), var(--darkgrey) 20px, #fffef2 20px, #fffef2 100px );
+
+box-shadow: inset 0 0 10px 0px #00000064;
+
+
+
+}
+#homepage-highlightedwork{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 5rem;
+    column-gap: 1rem;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+  
+ 
+}
+#homepage-highlightedwork article{
+
+   animation-name: bob;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+  
+}
+
+
+#homepage-highlightedwork article img{
+    
+    border-radius: 700px;
+    box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, 0.252);
+    
+    max-height: 35rem;
+    max-width: 40vw;
+    max-height: 60vh;
+
+    
+ }
+
+ 
+#homepage-highlightedwork article:hover  {
+    animation-name: none;
+    
+    
+    
+ }
+ #homepage-highlightedwork article img:hover{
+    cursor: pointer;
+ }
+
+ #homepage-workinfobox-closebutton:hover
+ {
+    cursor: pointer;
+ }
+
+
+
+
+ #linkssection
+ {
+    margin-bottom: 8rem;
+    transform: rotate(1deg);
+ }
+
+ #linkssection h1
+ {
+    color: rgb(0, 0, 0);
+ 
+    font-weight: 1000;
+    text-shadow: 24px 0 var(--glasses-yellow), -24px 0 var(--glasses-yellow), 0 24px var(--glasses-yellow), 0 -24px var(--glasses-yellow),
+             16px 16px var(--glasses-yellow), -16px -16px var(--glasses-yellow), 16px -16px var(--glasses-yellow), -16px 16px var(--glasses-yellow);
+
+    margin-bottom: 4rem;
+    text-align: center;
+    text-align: center;
+ }
+#homepage-portfoliolinks
+{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+ .squareTitle
+ {
+    color: black;
+   
+    background-color: var(--glasses-yellow);
+
+    box-shadow: 0.5rem 0.5rem 0.5rem .5rem rgba(0, 0, 0, 0.252);
+
+    
+    
+ }
+
+ a{
+    align-self: center;
+ }
+
+ .standalonesection{
+    background-color: var(--cream);
+opacity: 1;
+background-size: 30px 30px;
+background-image:  repeating-linear-gradient(0deg, #00000045, #0000005c 1.5px, #fffde7 1.5px, #fffde7);
+    
+    margin: 4rem;
+    background-color: var(--cream);
+    box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, 0.252);
+    padding: 2rem;
+ }
+
+
+ #homepage-contactme{
+    background-color: var(--cream);
+    display: flex;
+    justify-content: space-evenly;
+
+    
+ }
+
+ #homepage-workinfobox
+ {
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    top:50%;
+    left: 50%;
+    background-color: var(--cream);
+    z-index: 100;
+    padding: 2rem;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: var(--darkgrey);
+    border-style: solid;
+    border-width: 1rem;
+
+    background-size: cover;
+    background-position: 50% 25%;
+    
+ }
+
+ #homepage-workinfobox h1, #homepage-workinfobox h2
+ {
+    color: var(--cream);
+ }
+
+
+ #homepage-workinfobox p
+ {
+    background-color: var(--cream) ;
+    text-align: justify;
+    font-size: 1rem;
+    padding: 3rem;
+    color: var(--darkgrey);
+    
+ 
+    
+ }
+
+ #homepage-workinfobox-closebutton
+ {
+    position: absolute;
+    left: 95%;
+    top: -15%;
+ }
+
+ #homepage-workinfobox-link{
+    font-family: 'Lato';
+    font-size: large;
+    font-weight: 1000;
+    padding: 1rem;
+    margin: 2rem;
+ }
+
+
+
+.rowsection{
+    display: flex;
+    flex-direction: column;
+}
+
+.columnarticle{
+    display: flex;
+    flex-direction: row;
+}
+
+ @keyframes bob {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }
+    
+ }
+
+
+ #cv-intro{
+    display: flex;
+   
+    margin: 1rem;
+ }
+
+ #cv-intro p{
+    font-family: 'Shadows Into Light';
+    font-size: 3rem;
+    font-weight: 1000;
+    letter-spacing: 0.2rem;
+ }
+
+ .column
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+ }
+
+
+
+ .rows{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+ }
+ .rows *{
+    align-self: center;
+ }
+
+ 
+ .socmedlinks
+ {
+    display: flex;
+    justify-content: space-between; 
+    gap:2rem;
+    padding: 2rem;
+ }
+ .socmedlinks img{
+    width: 8rem;
+ }
+
+
+
+ 
+
+ 
+
