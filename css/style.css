@@ -265,9 +265,10 @@ box-shadow: inset 0 0 10px 0px #00000064;
     border-radius: 700px;
     box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, 0.252);
     
-    max-height: 35rem;
+    
     max-width: 40vw;
     max-height: 60vh;
+    min-width: 20vw
 
     
  }
