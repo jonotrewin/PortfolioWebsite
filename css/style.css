@@ -474,8 +474,45 @@ background-image:  repeating-linear-gradient(0deg, #00000045, #0000005c 1.5px, #
  }
 
 
+ @media (min-width:1240px) {
+    
+  
+     #homepage-welcometext{
+       
+         max-width: 60%;
+      
+        
+     }
 
+     #picofme{
+        left: 60%
+     }
  
+ 
+  }
+
+
+
+ @media (max-width:961px) {
+    
+   .squareTitle{
+    font-size: 2.5rem;
+   }
+
+    #picofme{
+        display: none;
+        
+        
+    }
+    #homepage-welcometext{
+      
+        max-width: 100%;
+     
+       
+    }
+
+
+ }
 
  
 
