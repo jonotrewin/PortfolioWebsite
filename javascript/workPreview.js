@@ -115,6 +115,21 @@ let thirtyBirds =
     colour: `url("./images/30birds.webp")`
 }
 
+let supermarket =
+{
+    card: document.getElementById("supermarketcard"),
+    title:"Supermarket",
+    desc: "Supermarket is a political narrative created for the 'F#$* Captialism' gamejam on itch.io.\n\nIt was created with Zain Al Rubaie on Sound Design and Ioanna Efthymiadou as art designer and additional programmer. The Game Design was collaborated between the three of us. \n\n Note 25/01/2024: this link leads to an old version. The actual final version is being polished and will be updated ASAP.\n\n Password: gooseberry",
+    role: "Game Designer, Programmer, Writer",
+    
+    linkText: "Play it on Itch!",
+    linkAddress: "https://jonathon-trewin.itch.io/supermarket-wip",
+    darkMode:false,
+    hasVideo: false,
+    
+    colour: `url("./images/Supermarket.png")`
+}
+
 let quitenAndTheRabbit =
 {
     card: document.getElementById("quintencard"),
@@ -133,4 +148,5 @@ let quitenAndTheRabbit =
 illegalHarvest.card.addEventListener('click',function(){OpenWindow(illegalHarvest)});
 thirtyBirds.card.addEventListener('click',function(){OpenWindow(thirtyBirds)})
 quitenAndTheRabbit.card.addEventListener('click',function(){OpenWindow(quitenAndTheRabbit)})
+supermarket.card.addEventListener('click',function(){OpenWindow(supermarket)});
 
