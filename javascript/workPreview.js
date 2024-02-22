@@ -94,6 +94,25 @@ let illegalHarvest =
     colour: "linear-gradient(180deg, lightblue, white)"
 }
 
+let mekAndKube =
+{
+    card: document.getElementById("bigmekcard"),
+    title:"Big Mek & Kube",
+    desc: "As part of the Unwrap 2024 Game Jam, my team and I created a co-op city destroying game that encourages players to speed their way through a human city, in search of revenge and retribution.\n\n I implemented the sound, UI and animations. In terms of programming, I took care of the enemy AI, Big Mek Movement and city destruction.",
+    role: "Programmer and Implementation",
+    imageSRC:"./images/bigmek.webp",
+    videoURL: "https://www.youtube.com/embed/3j0GH_sqIkQ?si=2DZIm3tAoyakON-5",
+
+    linkText: "Play it on Itch!",
+    linkAddress: "https://redloboe.itch.io/bigmek",
+
+    hasVideo: true,
+    darkMode:false,
+    
+    colour: "linear-gradient(180deg, orange, blue)"
+}
+
+
 let thirtyBirds =
 {
     card: document.getElementById("30birdscard"),
@@ -165,3 +184,4 @@ thirtyBirds.card.addEventListener('click',function(){OpenWindow(thirtyBirds)})
 quitenAndTheRabbit.card.addEventListener('click',function(){OpenWindow(quitenAndTheRabbit)})
 supermarket.card.addEventListener('click',function(){OpenWindow(supermarket)});
 cartoonbase.card.addEventListener('click',function(){OpenWindow(cartoonbase)});
+mekAndKube.card.addEventListener('click',function(){OpenWindow(mekAndKube)});
