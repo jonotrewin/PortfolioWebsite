@@ -6,6 +6,11 @@
     --cream: rgb(254, 255, 243);
 }
 
+body,html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body{
    
@@ -447,16 +452,15 @@ background-image:  repeating-linear-gradient(0deg, #00000045, #0000005c 1.5px, #
  {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  
+   
  }
 
 
 
  .rows{
     display: flex;
-    gap: 2rem;
-    justify-content: space-between;
+    
+    
  }
  .rows *{
     align-self: center;
@@ -478,6 +482,8 @@ background-image:  repeating-linear-gradient(0deg, #00000045, #0000005c 1.5px, #
  @media (min-width:1240px) {
     
   
+  
+    
      #homepage-welcometext{
        
          max-width: 60%;
@@ -496,8 +502,23 @@ background-image:  repeating-linear-gradient(0deg, #00000045, #0000005c 1.5px, #
 
  @media (max-width:961px) {
     
+   
+
+
+
+
+    body{
+        overflow-x: hidden;
+        
+        
+    }
+
+    #homepage-highlightedworkfull *{
+        flex-direction: column;
+    }
+
    .squareTitle{
-    font-size: 2.5rem;
+    font-size: 3rem;
    }
 
     #picofme{
@@ -508,10 +529,145 @@ background-image:  repeating-linear-gradient(0deg, #00000045, #0000005c 1.5px, #
     #homepage-welcometext{
       
         max-width: 100%;
+        
+        margin: 0;
+        border-radius: 0px;
      
        
     }
 
+    #homepage-welcometext p{
+        margin: 0;
+        padding:0 0 2rem 0;
+    }
+
+    #namelogo{
+        font-size: 2rem;
+    }
+    .squareTitle{
+       font-size: 5vw;
+       margin: 0;
+       padding: 0.2rem;
+    }
+
+
+    nav{
+        padding: 0rem;
+    }
+    nav ul {
+        max-width: 0px;
+    }
+
+   
+
+    nav ul ul {
+        max-width: 10px;
+        justify-content: space-between;
+    }
+
+    nav ul ul a {
+        padding: 0.5rem;
+  
+
+    }
+
+    nav img{
+        display:  none;   
+    }
+
+    .socmedlinks a img{
+        max-width:150%;
+    }
+
+    #homepage-portfoliolinks{
+        display: grid;
+
+    }
+
+    #homepage-portfoliolinks h2{
+       font-size: 3rem;
+       padding: 0.5rem;
+       text-align: center;
+    }
+
+    footer p {
+        margin-bottom: 2rem;
+    }
+
+    #homepage-workinfobox
+    {
+       position: fixed;
+       text-align: center;
+       justify-content: center;
+       top:50%;
+       left: 50%;
+       background-color: var(--cream);
+       z-index: 100;
+       padding: 2rem;
+       width: 80%;
+       height: 80%;
+       transform: translate(-50%, -50%);
+       display: none;
+       border: var(--darkgrey);
+       border-style: solid;
+       border-width: 1rem;
+   
+       background-size: cover;
+       background-position: 50% 25%;
+       
+    }
+
+    #homepage-workinfobox-closebutton
+    {
+    
+       left: 80%;
+       top: -10%;
+    }
+
+    #homepage-workinfobox-imageorvideo iframe {
+       padding: 0;
+       margin: 0;
+       max-height: 200px;
+    }
+
+    .rows{
+        flex-direction: column;
+    }
+
+    .column{
+        padding: 0;
+        margin: 0;
+        width: 100;
+    }
+
+    .column .squareTitle{
+        margin: 0;
+       
+    }
+
+ 
+
+    #homepage-workinfobox-description {
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    #homepage-highlightedwork article img {
+        transform: scale(150%);
+        margin: 1rem 0 3rem 0;
+      
+    }
+ #homepage-workinfobox h1, h3{
+    font-size: 1rem;
+ }
+
+ #homepage-workinfobox p{
+    font-size:0.9rem;
+    margin-bottom: -4rem;
+ }
+
+   
 
  }
 
