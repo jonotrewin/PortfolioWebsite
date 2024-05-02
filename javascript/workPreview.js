@@ -80,7 +80,7 @@ let illegalHarvest =
 {
     card: document.getElementById("illegalharvestcard"),
     title:"Illegal Harvest",
-    desc: "My game Illegal Harvest was winner for the Grads in Gaming Rising Star Competition. In the space of a month, I was able to design, prototype, program and playtest this game design prototype. Additionally, I modelled all the characters (including the veggies). Other assets, such as the Truck and Police Boats were created by Ioanna Efthymiadou.",
+    desc: "My game Illegal Harvest was winner for the Grads in Gaming Rising Star Competition. In the space of a month, I was able to design, prototype, program and playtest this game design prototype. Additionally, I modelled all the characters (including the veggies). Other assets, such as the Truck and Police Boats were created by Ioanna Efthymiadou. <br>Check out the Game Design Document at: bit.ly/3UlBWcd</br>",
     role: "Designer, Artist, Programmer",
     imageSRC:"./images/30birds.jpg",
     videoURL: "https://www.youtube.com/embed/4-WuU0gLYck?si=uwJeinu4I6SZN98C",
