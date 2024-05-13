@@ -113,6 +113,27 @@ let mekAndKube =
 }
 
 
+let ratlingRats =
+{
+    card: document.getElementById("ratcard"),
+    title:"",
+    desc: "Ratling Rats was made for the two day Street Jam 2024. It's heavily inspired by Pikmin. In it, you control a mouse commander ordering about his rebellious army of rats. The end product is a bit too difficult, but hopefully I'll eventually find the time to go back and do some balancing. \n\n The art was done by Ziqqy and Bonnie, while Willem Hollants worked on implementation and sound design.",
+    role: "Programmer, Unity Implementer, Ideation",
+
+    videoURL: "https://www.youtube.com/embed/zfa0gMgN-w4?si=vpHSCdghKsiuLfNL",
+
+    linkText: "Download the game on Itch!",
+    linkAddress: "https://ziqqy-88.itch.io/rating-rats",
+
+    hasVideo: false,
+    darkMode:false,
+     
+
+    
+    colour: `url("./images/ratlingratscover.png")`
+}
+
+
 let thirtyBirds =
 {
     card: document.getElementById("30birdscard"),
@@ -185,3 +206,4 @@ quitenAndTheRabbit.card.addEventListener('click',function(){OpenWindow(quitenAnd
 supermarket.card.addEventListener('click',function(){OpenWindow(supermarket)});
 cartoonbase.card.addEventListener('click',function(){OpenWindow(cartoonbase)});
 mekAndKube.card.addEventListener('click',function(){OpenWindow(mekAndKube)});
+ratlingRats.card.addEventListener('click',function(){OpenWindow(ratlingRats)});
