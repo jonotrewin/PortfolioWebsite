@@ -122,7 +122,7 @@ let ratlingRats =
 
     videoURL: "https://www.youtube.com/embed/zfa0gMgN-w4?si=vpHSCdghKsiuLfNL",
 
-    linkText: "Download the game on Itch!",
+    linkText: "Play the game on Itch!",
     linkAddress: "https://ziqqy-88.itch.io/rating-rats",
 
     hasVideo: false,
