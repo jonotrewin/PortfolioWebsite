@@ -116,7 +116,7 @@ let mekAndKube =
 let ratlingRats =
 {
     card: document.getElementById("ratcard"),
-    title:"",
+    title:"Ratling Rats",
     desc: "Ratling Rats was made for the two day Street Jam 2024. It's heavily inspired by Pikmin. In it, you control a mouse commander ordering about his rebellious army of rats. The end product is a bit too difficult, but hopefully I'll eventually find the time to go back and do some balancing. \n\n The art was done by Ziqqy and Bonnie, while Willem Hollants worked on implementation and sound design.",
     role: "Programmer, Unity Implementer, Ideation",
 
