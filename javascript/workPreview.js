@@ -134,6 +134,27 @@ let ratlingRats =
 }
 
 
+let groover =
+{
+    card: document.getElementById("groovercard"),
+    title:"Groover",
+    desc: "Groover was a Game Design project that I did to improve my familiarity with Unreal Engine and its visual scripting language Blueprints. \n\nThe goal of the game is to get from one end of the map to the other without running out of moves. The player loses lives when they move outside of the rhythm that is being played globally. The player can increase their moves by moving onto pickups, and can activate teleporters around the level by adjusting the speed of the rhythm (some teleporters activate on a slow rhythm, others on a fast one).",
+    role: "Blueprints Programmer, Game Design",
+
+    videoURL: "https://www.youtube.com/embed/qUxr5cnzRSk?si=d13O0Ai4xhpuIdr1",
+
+        
+    linkText: "Design Process",
+    linkAddress: "https://www.youtube.com/watch?v=UzTghhy8qfE",
+
+    hasVideo: true,
+    darkMode:false,
+     
+
+    
+    colour: "linear-gradient(180deg, black, orange)"
+}
+
 let thirtyBirds =
 {
     card: document.getElementById("30birdscard"),
@@ -201,6 +222,7 @@ let quitenAndTheRabbit =
 }
 
 illegalHarvest.card.addEventListener('click',function(){OpenWindow(illegalHarvest)});
+groover.card.addEventListener('click',function(){OpenWindow(groover)});
 thirtyBirds.card.addEventListener('click',function(){OpenWindow(thirtyBirds)})
 quitenAndTheRabbit.card.addEventListener('click',function(){OpenWindow(quitenAndTheRabbit)})
 supermarket.card.addEventListener('click',function(){OpenWindow(supermarket)});
