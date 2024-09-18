@@ -112,6 +112,25 @@ let mekAndKube =
     colour: "linear-gradient(180deg, orange, blue)"
 }
 
+let beesteKeuze =
+{
+    card: document.getElementById("beestekeuzecard"),
+    title:"Beeste Keuze",
+    desc: "Beeste Keuze is an edu-game funded by Scum Studios and the Flemish Governemnt. It teaches players the difficulty of coallition formation and running governments. I was lead designer and programmer for this project, with David Jávorcsík as lead artist. \n\nIt is mobile- and browser-friendly.",
+    role: "Game Direction, Lead Programmer, Lead Designer",
+    
+
+    linkText: "Play the game on Itch!",
+    linkAddress: "https://jonathon-trewin.itch.io/beeste-keuze",
+
+    hasVideo: false,
+    darkMode:false,
+     
+
+    
+    colour: `url("./images/BeesteBackground.png")`
+}
+
 
 let ratlingRats =
 {
@@ -221,6 +240,7 @@ let quitenAndTheRabbit =
     colour: `url("./images/QuentinAndTheRabbit.png")`
 }
 
+beesteKeuze.card.addEventListener('click',function(){OpenWindow(beesteKeuze)});
 illegalHarvest.card.addEventListener('click',function(){OpenWindow(illegalHarvest)});
 groover.card.addEventListener('click',function(){OpenWindow(groover)});
 thirtyBirds.card.addEventListener('click',function(){OpenWindow(thirtyBirds)})
