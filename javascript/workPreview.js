@@ -106,11 +106,31 @@ let mekAndKube =
     linkText: "Play it on Itch!",
     linkAddress: "https://redloboe.itch.io/bigmek",
 
-    hasVideo: true,
+    hasVideo: false,
     darkMode:false,
     
     colour: "linear-gradient(180deg, orange, blue)"
 }
+
+let fatHobo =
+{
+    card: document.getElementById("fathobocard"),
+    title:"",
+    desc: "When he find Santa Clause dead in an alleyway, Maurice (A.K.A Hobocop) sets out on an adventure across his neighbourhood in the Post-Soviet city of Gorod Natsional.  Aided by his best friend, partner and traffic cone Nicholas II, he will have to bargain with the city's denizens to get the answers he needs.\n\n I programmed the entire game, as well as writing all the dialogue. I also took on a leadership role in the team to make sure everyone was coordinated.",
+    role: "Programmer, Narrative Designer",
+    
+
+    linkText: "Download the game on Itch!",
+    linkAddress: "https://jonathon-trewin.itch.io/fat-hobo",
+
+    hasVideo: true,
+    darkMode:true,
+     
+
+    
+    colour: `url("./images/FatHoboBanner.png")`
+}
+
 
 let beesteKeuze =
 {
@@ -241,6 +261,7 @@ let quitenAndTheRabbit =
 }
 
 beesteKeuze.card.addEventListener('click',function(){OpenWindow(beesteKeuze)});
+fatHobo.card.addEventListener('click',function(){OpenWindow(fatHobo)});
 illegalHarvest.card.addEventListener('click',function(){OpenWindow(illegalHarvest)});
 groover.card.addEventListener('click',function(){OpenWindow(groover)});
 thirtyBirds.card.addEventListener('click',function(){OpenWindow(thirtyBirds)})
