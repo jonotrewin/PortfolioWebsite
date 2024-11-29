@@ -118,6 +118,7 @@ let fatHobo =
     title:"",
     desc: "When he find Santa Clause dead in an alleyway, Maurice (A.K.A Hobocop) sets out on an adventure across his neighbourhood in the Post-Soviet city of Gorod Natsional.  Aided by his best friend, partner and traffic cone Nicholas II, he will have to bargain with the city's denizens to get the answers he needs.\n\n I programmed the entire game, as well as writing all the dialogue. I also took on a leadership role in the team to make sure everyone was coordinated.",
     role: "Programmer, Narrative Designer",
+    videoURL: "https://www.youtube.com/embed/RLECC9YOOKI?si=KXSkw48A97Iiz1Tv",
     
 
     linkText: "Download the game on Itch!",
